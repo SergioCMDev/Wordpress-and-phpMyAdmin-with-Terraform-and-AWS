@@ -1,1 +1,0 @@
-This is a basic project where I install and configure Wordpress and phpMyAdmin from scratch while I also create the infrastructure in AWS creating a EC2 Instance, a VPC with a pair of subnets, a NAT gateway, a RDS BD and a few security groups to keep it safe
