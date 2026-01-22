@@ -8,7 +8,7 @@ resource "aws_instance" "ec2_instance" {
   subnet_id                   = var.public_subnet1_id
   key_name                    = aws_key_pair.kp_config_user.key_name
   tags = {
-    Name = "Terraform_Instance"
+    Name = "Wordpress Instance"
   }
   user_data = var.db_user_data
 }
